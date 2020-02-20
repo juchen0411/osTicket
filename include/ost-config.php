@@ -39,10 +39,10 @@ define('ADMIN_EMAIL','%ADMIN-EMAIL');
 # ---------------------------------------------------
 # Mysql Login info
 define('DBTYPE','mysql');
-define('DBHOST','%CONFIG-DBHOST');
-define('DBNAME','%CONFIG-DBNAME');
-define('DBUSER','%CONFIG-DBUSER');
-define('DBPASS','%CONFIG-DBPASS');
+define('DBHOST','osticketnew.mysql.database.azure.com');
+define('DBNAME','osticketazure');
+define('DBUSER','juc@osticketnew');
+define('DBPASS','!Qㄌ');
 
 # Table prefix
 define('TABLE_PREFIX','%CONFIG-PREFIX');

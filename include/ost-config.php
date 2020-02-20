@@ -42,7 +42,7 @@ define('DBTYPE','mysql');
 define('DBHOST','osticketnew.mysql.database.azure.com');
 define('DBNAME','osticketazure');
 define('DBUSER','juc@osticketnew');
-define('DBPASS','!Qㄌ');
+define('DBPASS','!Q');
 
 # Table prefix
 define('TABLE_PREFIX','%CONFIG-PREFIX');

@@ -30,10 +30,10 @@ if(OSTINSTALLED!=TRUE){
 }
 
 # Encrypt/Decrypt secret key - randomly generated during installation.
-define('SECRET_SALT','ObgSd4Wcj94gSlM2BxbzHkISmDO51YSW');
+define('SECRET_SALT','%CONFIG-SIRI');
 
 #Default admin email. Used only on db connection issues and related alerts.
-define('ADMIN_EMAIL','juc@osticket.com');
+define('ADMIN_EMAIL','%ADMIN-EMAIL');
 
 # Database Options
 # ---------------------------------------------------
@@ -42,10 +42,10 @@ define('DBTYPE','mysql');
 define('DBHOST','osticketnew.mysql.database.azure.com');
 define('DBNAME','osticketazure');
 define('DBUSER','juc@osticketnew');
-define('DBPASS','!Qaz2wsx');
+define('DBPASS','!Q');
 
 # Table prefix
-define('TABLE_PREFIX','ost_');
+define('TABLE_PREFIX','%CONFIG-PREFIX');
 
 #
 # SSL Options

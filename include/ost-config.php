@@ -21,7 +21,7 @@ if(!strcasecmp(basename($_SERVER['SCRIPT_NAME']),basename(__FILE__)) || !defined
     die('kwaheri rafiki!');
 
 #Install flag
-define('OSTINSTALLED',FALSE);
+define('OSTINSTALLED',TRUE);
 if(OSTINSTALLED!=TRUE){
     if(!file_exists(ROOT_DIR.'setup/install.php')) die('Error: Contact system admin.'); //Something is really wrong!
     //Invoke the installer.
@@ -30,10 +30,10 @@ if(OSTINSTALLED!=TRUE){
 }
 
 # Encrypt/Decrypt secret key - randomly generated during installation.
-define('SECRET_SALT','%CONFIG-SIRI');
+define('SECRET_SALT','ObgSd4Wcj94gSlM2BxbzHkISmDO51YSW');
 
 #Default admin email. Used only on db connection issues and related alerts.
-define('ADMIN_EMAIL','%ADMIN-EMAIL');
+define('ADMIN_EMAIL','juc@osticket.com');
 
 # Database Options
 # ---------------------------------------------------
@@ -42,10 +42,10 @@ define('DBTYPE','mysql');
 define('DBHOST','osticketnew.mysql.database.azure.com');
 define('DBNAME','osticketazure');
 define('DBUSER','juc@osticketnew');
-define('DBPASS','!Q');
+define('DBPASS','!Qaz2wsx');
 
 # Table prefix
-define('TABLE_PREFIX','%CONFIG-PREFIX');
+define('TABLE_PREFIX','ost_');
 
 #
 # SSL Options
